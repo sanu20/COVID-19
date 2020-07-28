@@ -1,0 +1,109 @@
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", "Arial Narrow";
+}
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  background-color: #2a13f5;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: red;
+  box-shadow: 5px 3px 15px -5px;
+ 
+}
+
+.header searchIcon {
+  padding: theme.spacing(0, 2);
+  height: '100%';
+  pointerEvents: 'none';
+  display: 'flex';
+  alignItems: 'center';
+  justifyContent: 'center';
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  line-height: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+body {
+  background: rgb(144, 153, 144);
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 4px solid red;
+}
+
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeaths,
+.TotalRecovered{
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.NewConfirmed {
+  color : orangered;
+}
+
+.TotalConfirmed {
+  color: blue;
+}
+
+.NewDeaths {
+  color: brown;
+}
+
+.TotalDeaths {
+  color: rgb(127, 0, 139);
+}
+
+.TotalRecovered {
+  color: black;
+}
+
+table {
+    border-collapse: separate;
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 0 12px;
+}
+
+table thead tr {
+  background: yellowgreen;
+}
+
+table thead tr th {
+  padding: 12px;
+  text-align: left;
+}
+
+table tbody tr {
+  background: rgb(206, 94, 94);
+}
+
+table tbody tr td {
+  padding: 12px;
+  text-align: left;
+}
